@@ -1,0 +1,15 @@
+.subbackground {
+    background-color: #00adff;
+    /* background-image: url(../../images/bright-bubbles_smaller.jpg);
+    background-size: cover; */
+}
+
+.subline {
+    line-height: 100px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+}

@@ -1,0 +1,9 @@
+.subfooterbackground {
+    /* background-color: #32a263; */
+    background-image: url(../../images/bright-bubbles_footer.jpg);
+    background-size: cover;
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+}
+

@@ -1,0 +1,11 @@
+.wrapper {
+    margin: 0 auto;
+    background:pink;
+    height: 100%;
+    display: block;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+    /* overflow: auto; */
+  }
