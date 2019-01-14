@@ -1,10 +1,10 @@
-.subbackground {
+.sub-header-background {
     background-color: #00adff;
     /* background-image: url(../../images/bright-bubbles_smaller.jpg);
     background-size: cover; */
 }
 
-.subline {
+.sub-header-static-text {
     line-height: 100px;
     font-size: 28px;
     text-align: center;
@@ -12,4 +12,11 @@
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 50px;
+}
+
+.sub-header-game-status {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
 }

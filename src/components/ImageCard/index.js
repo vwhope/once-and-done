@@ -2,30 +2,32 @@ import React from "react";
 import "./style.css";
 
 
-import frank_200 from "../../images/frank_200.png";
-import gary_200 from "../../images/gary_200.png";
-import gus_200 from "../../images/gus_200.png";
-import patrick_200 from "../../images/patrick_200.png";
+// import frank_200 from "../../images/frank_200.png";
+// import gary_200 from "../../images/gary_200.png";
+// import gus_200 from "../../images/gus_200.png";
+// import patrick_200 from "../../images/patrick_200.png";
 
-import harold_200 from "../../images/harold_200.png";
-import mrkrabs_200 from "../../images/mrkrabs_200.png";
-import mrspuff_200 from "../../images/mrspuff_200.png";
-import nancysuzy_200 from "../../images/nancysuzy_200.png";
+// import harold_200 from "../../images/harold_200.png";
+// import mrkrabs_200 from "../../images/mrkrabs_200.png";
+// import mrspuff_200 from "../../images/mrspuff_200.png";
+// import nancysuzy_200 from "../../images/nancysuzy_200.png";
 
-import sheldon_200 from "../../images/sheldon_200.png";
-import spongebob_200 from "../../images/spongebob_200.png";
-import squidward_200 from "../../images/squidward_200.png";
-import pearl_200 from "../../images/pearl_200.png";
+// import sheldon from "../../images/sheldon_200.png";
+// import spongebob_200 from "../../images/spongebob_200.png";
+// import squidward_200 from "../../images/squidward_200.png";
+// import pearl_200 from "../../images/pearl_200.png";
 
 // import IncrementScore from "../IncrementScore";
+// var totalScore = Number;
 
 class ImageCard extends React.Component {
-  // Setting the initial state for number of clicks on EACH image
+
+  // Set initial state for number of clicks for EACH image
   state = {
     clickCount: 1,
-    totalScore: 0
+    totalScore: 0,
+    statusMsg: ""
   };
-
 
   // increments this.state.clickCount by 1
   handleIncrementClickCount = () => {
@@ -34,14 +36,22 @@ class ImageCard extends React.Component {
   };
 
   winOrLose = (clickCount) => {
+    // parse string clickCount into an integer
+    let clickCountNbr = parseInt(clickCount);
     // if clickCount is > 1 for any image, the game is over, send Game Over message
-    // ? but question is how do I render this on the
-    if (clickCount > 1) {
-      let statusMsg = "You clicked an image more than once, Game Over!";
+    // ??? but question is how do I render this on the page - it doesn't go on the image card
+    if (clickCountNbr > 1) {
+      //  let statusMsg;
+       let statusMsg = "You clicked an image more than once, Game Over!";
+      // this.setState({ statusMsg: this.state.statusMsg });
+      this.setState({ statusMsg: "You clicked an image more than once, Game Over!" });
       console.log (statusMsg);
+      // ??? how do I get statusMsg onto page - I have changed its state
+      return statusMsg ;
     } else {
-      let totalScore = totalScore + 1;
-      console.log(totalScore);
+      let totalScore =  Number;
+      totalScore = totalScore + 1;
+      console.log("Total Score: " + totalScore);
     };
   };
 
@@ -52,14 +62,16 @@ class ImageCard extends React.Component {
         <div className="imagewrapper">
           <div className="imagerow">
             <img className="characterImage"
-              alt={this.props.name}
-              src={this.props.path}
-              // src={sheldon_200}
-              onClick = {() => {
+              style={{ backgroundImage: `url("${this.props.path}")` }}
+              aria-label={this.props.name}
+              // alt={this.props.name}
+                 alt=""
+              // src={this.props.path}
+                onClick = {() => {
                 this.handleIncrementClickCount();
                 this.winOrLose(this.state.clickCount);
-                console.log(this.props.path);
-                console.log("# of Clicks for: " + this.props.name + ":" + this.state.clickCount);
+                // console.log(this.props.path);
+                console.log("# of Clicks for " + this.props.name + ": " + this.state.clickCount);
               }}
             />
           </div>

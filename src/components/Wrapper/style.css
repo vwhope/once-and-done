@@ -1,11 +1,11 @@
 .wrapper {
     margin: 0 auto;
-    background:pink;
+    background:#bfedf3;
     height: 100%;
     display: block;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap;
     justify-content: space-around;
-    align-content: flex-start;
+    align-content: flex-start; */
 
     /* overflow: auto; */
   }

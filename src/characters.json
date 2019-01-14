@@ -2,62 +2,62 @@
   {
     "id": 1,
     "name": "Frank",
-    "path": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
+    "path": "/assets/images/frank_200.png"
   },
   {
     "id": 2,
     "name": "Gary",
-    "path": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png"
+    "path": "/assets/images/gary_200.png"
   },
   {
     "id": 3,
     "name": "Gus",
-    "path": "gus_200"
+    "path": "/assets/images/gus_200.png"
   },
   {
     "id": 4,
     "name": "Patrick",
-    "path": "../../images/patrick_200.png"
+    "path": "/assets/images/patrick_200.png"
   },
   {
     "id": 5,
     "name": "Harold",
-    "path": "../../images/harold_200.png"
+    "path": "/assets/images/harold_200.png"
   },
   {
     "id": 6,
     "name": "Mr. Krabs",
-    "path": "../../images/mrkrabs_200.png"
+    "path": "/assets/images/mrkrabs_200.png"
   },
   {
     "id": 7,
     "name": "Mrs. Puff",
-    "path": "../../images/mrspuff_200.png"
+    "path": "/assets/images/mrspuff_200.png"
   },
   {
     "id": 8,
     "name": "Nancy Suzy Fish",
-    "path": "../../images/nancysuzy_200.png"
+    "path": "/assets/images/nancysuzy_200.png"
   },
   {
     "id": 9,
     "name": "Sheldon J. Plankton",
-    "path": "../../images/sheldon_200.png"
+    "path": "/assets/images/sheldon_200.png"
   },
   {
     "id": 10,
     "name": "Spongebob",
-    "path": "../../images/spongebob_200.png"
+    "path": "/assets/images/spongebob_200.png"
   },
   {
     "id": 11,
     "name": "Squidward",
-    "path": "../../images/squidward_200.png"
+    "path": "/assets/images/squidward_200.png"
   },
   {
     "id": 12,
     "name": "Pearl Krabs",
-    "path": "../../images/pearl_200.png"
+    "path": "/assets/images/pearl_200.png"
   }
 ]
 

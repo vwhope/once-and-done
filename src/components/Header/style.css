@@ -1,6 +1,6 @@
 .gameName {
     background-color: #00adff;
-    background-image: url(../../images/bright-bubbles_smaller.jpg);
+    background-image: url(../../images/bright-bubbles_header.jpg);
     background-size: cover;
     color: black;
     text-shadow: 3px 3px 0px rgba(63,107,169, 0.5);
@@ -10,5 +10,4 @@
     line-height: 100px;
     margin: 0;
     border-bottom: 1px solid black;
-    /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
 }

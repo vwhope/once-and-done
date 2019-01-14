@@ -24,4 +24,5 @@ render() {
   }
 }
 
+export default Toggle;
 // <Toggle /> render in the DOM ReactDOM.render
