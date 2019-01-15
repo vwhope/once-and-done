@@ -31,7 +31,7 @@ Run Application: [Once-and-Done](https://herokuapp.com/)
 * Created small, re-usable "components"
 * Used state/setState to initialize/update content
 * Defined/passed properties "props"
-* Used JSX syntax to combine markup and code
+* Used JSX syntax that combines markup and code
 * Rendered images both local and public
 * Deployed project using Heroku
 
@@ -50,12 +50,12 @@ Run Application: [Once-and-Done](https://herokuapp.com/)
 **To play Once-and Done**
 * Click any image to earn a point.
 * Goal is to reach a high score of 12 - one click for each image.
-* If you click any image more than once, the game is over. The score resets to 0, but high score remains unless the page is refreshed.
+* If you click any image more than once, the game is over.
+* The score resets to 0, but high score remains unless the page is refreshed.
 * To play another game, simply click any image again.
 
 **Resource Contributors**
 * Background Photo: [Pineapple in water](https://www.pexels.com/photo/bright-bubble-color-flatlay-137132/)
-
 
 
 **Future Enhancement Ideas**
