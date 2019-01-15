@@ -7,57 +7,57 @@
   {
     "id": 2,
     "name": "Gary",
-    "path": "/assets/images/gary_200.png"
+    "path": "assets/images/gary_200.png"
   },
   {
     "id": 3,
     "name": "Gus",
-    "path": "/assets/images/gus_200.png"
+    "path": "assets/images/gus_200.png"
   },
   {
     "id": 4,
     "name": "Patrick",
-    "path": "/assets/images/patrick_200.png"
+    "path": "assets/images/patrick_200.png"
   },
   {
     "id": 5,
     "name": "Harold",
-    "path": "/assets/images/harold_200.png"
+    "path": "assets/images/harold_200.png"
   },
   {
     "id": 6,
     "name": "Mr. Krabs",
-    "path": "/assets/images/mrkrabs_200.png"
+    "path": "assets/images/mrkrabs_200.png"
   },
   {
     "id": 7,
     "name": "Mrs. Puff",
-    "path": "/assets/images/mrspuff_200.png"
+    "path": "assets/images/mrspuff_200.png"
   },
   {
     "id": 8,
     "name": "Nancy Suzy Fish",
-    "path": "/assets/images/nancysuzy_200.png"
+    "path": "assets/images/nancysuzy_200.png"
   },
   {
     "id": 9,
     "name": "Sheldon J. Plankton",
-    "path": "/assets/images/sheldon_200.png"
+    "path": "assets/images/sheldon_200.png"
   },
   {
     "id": 10,
     "name": "Spongebob",
-    "path": "/assets/images/spongebob_200.png"
+    "path": "assets/images/spongebob_200.png"
   },
   {
     "id": 11,
     "name": "Squidward",
-    "path": "/assets/images/squidward_200.png"
+    "path": "assets/images/squidward_200.png"
   },
   {
     "id": 12,
     "name": "Pearl Krabs",
-    "path": "/assets/images/pearl_200.png"
+    "path": "assets/images/pearl_200.png"
   }
 ]
 
