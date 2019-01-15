@@ -17,7 +17,7 @@ Run Application: [Once-and-Done](https://herokuapp.com/)
 * ES6
 * CSS3
 * Animation (shake) on hover
-* Heroku (deployment)
+
 
 **Problems to Solve**
 * Split code into manageable UI components
@@ -33,7 +33,7 @@ Run Application: [Once-and-Done](https://herokuapp.com/)
 * Defined/passed properties "props"
 * Used JSX syntax that combines markup and code
 * Rendered images both local and public
-* Deployed project using Heroku
+* Deployed project using gitHub pages
 
 **Setup to run application on your system**
 * React.js must be installed on your system
