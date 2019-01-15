@@ -2,7 +2,7 @@
 
 ### a memory game built with React.js
 
-Run Application: [Once-and-Done](https://herokuapp.com/)
+Run Application: [Once-and-Done](https://vwhope.github.io/once-and-done/)
 
 **Features**
 * Click on any character ONCE to score points
