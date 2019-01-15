@@ -4,7 +4,7 @@ import "./style.css";
 function Footer(props) {
     return (
         <div className="footer">
-            <p className="footerText">Once-and-Done Game</p>
+            <p className="footer-text">Once-and-Done Game</p>
         </div>
         );
     }

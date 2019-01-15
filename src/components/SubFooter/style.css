@@ -1,9 +1,13 @@
-.subfooterbackground {
+.subfooter-background {
     /* background-color: #32a263; */
     background-image: url(../../images/bright-bubbles_subfooter.jpg);
     background-size: cover;
     display: inline-block;
     height: 150px;
     width: 100%;
+}
+
+.subfooter-text {
+    color: transparent;
 }
 

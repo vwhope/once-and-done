@@ -1,12 +1,11 @@
 import React from "react";
 import "./style.css";
-import Score from "../Score";
 
 function SubFooter(props) {
 
     return (
-        <div className="subfooterbackground">
-            <Score />
+        <div className="subfooter-background">
+            <p className="subfooter-text">.</p>
         </div>
     );
 }
